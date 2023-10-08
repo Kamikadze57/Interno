@@ -4,12 +4,21 @@
     --main-gray: #4D5053;
     --bg-light-gray: #F4F0EC;
 }
-.services-title {
+body {
+    font-family: Jost;
+}
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.services-item-title {
     color: var(--brand-color);
 }
-.sec-comments {
+.comments {
     background-color: var(--bg-light-gray);
 }
-.sec-success {
+.success {
     background-color: var(--bg-light-gray);
 }
